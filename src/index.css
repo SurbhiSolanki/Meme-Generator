@@ -1,13 +1,108 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color:white;
+ 
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+ 
+}
+/* .conatiner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+} */
+.navbar{
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 70px;
+}
+.troll{
+  height: 50px;
+  margin-right: 10px;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.react{
+  color: white;
+  font-weight: 50;
+}
+.input{
+  padding: 36px;
+}
+.text{
+  display:flex;
+  flex-direction: column;
+  gap: 37px;
+}
+.inputs{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.text button{
+ display: flex;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+  font-weight: 600;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  ;
+  color: white;
+  cursor: pointer;
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+  border: none;
+}
+.enter{
+ border-radius: 5px;
+ border: 1px solid #D5D4D8;
+ text-indent: 5px;
+ width: 222px;
+ height: 55px;
+ border: 1px solid black;
+}
+.imgmeme{
+  height: 300px;
+  width: 477px;
+}
+.meme{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+.meme h2{
+  position: absolute;
+}
+.top{
+  margin-top: -180px;
+}
+.bottom{
+  margin-top: 190px;
+}
+.memetext{
+  color: white;
+  font-size: 70px ;
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
 }
